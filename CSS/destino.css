@@ -1,0 +1,88 @@
+/* reseteo de css */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  color: black;
+  background-color: aqua;
+  margin: 0;
+  padding: 12px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: chartreuse;
+  justify-content: center;
+  margin: 0;
+  padding: 12px;
+}
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+  padding: 12px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  justify-content: center;
+  color: black;
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, #c9055e 0%, #f2c227 90%);
+  margin: 0;
+  padding: 12px;
+}
+article p {
+  font-size: large;
+  color: antiquewhite;
+}
+
+.imagen {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-color: chartreuse;
+  margin: 0;
+  padding: 12px;
+}
+footer h4 {
+  color: black;
+}
+footer h4 h6 {
+  color: aliceblue;
+}
+
+/*eliminando lienas blancas*/
+div.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/*# sourceMappingURL=destino.css.map */

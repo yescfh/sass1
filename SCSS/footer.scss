@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: chartreuse;
+    margin: 0;
+    padding: 12px;
+
+    h4 {
+        color: black;
+
+        h6 {
+            color: aliceblue;
+        }
+    }
+}

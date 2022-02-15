@@ -1,0 +1,22 @@
+//* comentario*//
+/* reseteo de css */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+@import "header";
+@import "nav";
+@import "main";
+@import "img";
+@import "footer";
+
+/*eliminando lienas blancas*/
+div.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }

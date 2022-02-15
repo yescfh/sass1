@@ -1,0 +1,15 @@
+article {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    color: black;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(201,5,94,1) 0%, rgba(242,194,39,1) 90% );
+    margin: 0;
+    padding: 12px;
+    p{
+        font-size: large;
+        color: antiquewhite;
+
+    }
+}

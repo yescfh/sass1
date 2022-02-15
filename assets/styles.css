@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.banerImg {
+    background: url(../assets/banner-g90a6f5f04_1920.jpg);
+    background-size: 100%;
+    height: 50vh;
+    position: relative;
+    padding: 15px;
+}
+
+.banerText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: ivory;
+    font-size: 150%;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+
+    background-color: #60E0A7;
+    color: black;
+    margin: 0%;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.aside {
+
+    background-color: black;
+    color: blanchedalmond;
+    margin: 0%;
+    padding: 15px;
+
+}
+
+.fondoImg {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #25c4ce 0%, #fd1365 90%);
+    background-size: 100%;
+    height: auto;
+    position: relative;
+    padding: 15px;
+    font-family: ;
+}
+
+.footer {
+    background-image: radial-gradient(circle 312px at 37.3% 44.5%, rgba(183, 245, 128, 1) 3.6%, rgba(83, 243, 6, 1) 90%);
+    margin: 0%;
+    padding: 15px;
+    text-align: center;
+}
+
+img {
+    border-style: solid;
+    border-color: deeppink;
+    margin: auto;
+}
+
+iframe {
+    border-style: solid;
+    border-color: deeppink;
+    margin: auto;
+}
